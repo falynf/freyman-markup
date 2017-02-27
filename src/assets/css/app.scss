@@ -1,5 +1,5 @@
 body {
-	background-color: #fffdef;
+	background-color: #fffefc;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -8,22 +8,46 @@ img {
 	width: 100%;
 }
 
+a {
+    color: black;
+}
+
 .container {
 	max-width: 750px;
 	margin: 0 auto;
 }
 
-.headline {
-	font-size: 100px;
-	line-height: 95px;
+.lens {
+	font-family: Georgia;
+	font-size: 34px;
+}
+
+.byline {
 	font-family: Helvetica;
+	font-size: 16px;
+	color: #706c6c;
+	text-align: center;
+}
+
+.headline {
+	font-size: 65px;
+	line-height: 60px;
+	font-family: Book Antiqua;
 }
 
 .body {
-	font-family: Georgia;
-	font-size: 22px;
-	line-height: 32px;
+	font-family: Palatino, serif;
+	font-size: 20px;
+	line-height: 30px;
 }
+
+.caption {
+	font-size: 15px;
+	line-height: 20px;
+	color: #706c6c;
+}
+
+
 
 
 
